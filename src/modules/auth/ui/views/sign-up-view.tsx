@@ -177,7 +177,7 @@ export const SignUpView = () => {
                                     type="submit"
                                     className="w-full"
                                 >
-                                    Sign In
+                                    Sign Up
                                 </Button>
                                 <div className="after:border-border relative text-center text-sm after:absolute after:insert-0 after:z-0 after:top-1/2 after:flex after:items-center after:border-t">
                                     <span className="text-muted-foreground bg-card relative z-10 px-2">
@@ -205,11 +205,11 @@ export const SignUpView = () => {
                                     </Button>
                                 </div>
                                 <div className="text-center text-sm">
-                                    Don&apos;t Have an account?{" "} 
+                                    Have an account?{" "} 
                                     <Link 
-                                        href="/sign-up"
+                                        href="/sign-in"
                                         className="underline underline-offset-4"
-                                    >Sign Up</Link>
+                                    >Sign In</Link>
                                 </div>
                             </div>
                         </form>
