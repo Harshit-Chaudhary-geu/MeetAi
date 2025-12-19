@@ -22,8 +22,8 @@ export default function Home() {
       onError: () => {
         window.alert("Something went wrong")
       },
-        onSuccess: () => {
-          window.alert("User created successfully")
+      onSuccess: () => {
+        window.alert("User created successfully")
       }
     })
   }
